@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOMDocument</title>
+</head>
+<body>
+    <h1>estudando DOM</h1>
+<p>aqui vai o resultado</p>
+<p>aprendendo a usar o DOM</p>
+<div>clique aqui</div>
+
+
+<script>
+    var p1 = window.document.getElementsByTagName('p')[0]
+    window.document.write("está escrito assim: " + p1.innerText)
+    p1.style.color = 'blue'
+</script>
+</body>
+</html>
