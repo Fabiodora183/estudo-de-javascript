@@ -8,11 +8,26 @@
 </head>
 <body>
 <header>
-    <h1>Titulo</h1>
+    <h1>Identificador</h1>
 </header>
 <section>
-    <div></div>
-    <div></div>
+    <div>
+        <p>ano de nascimento:
+            <input type="number" id="txtano" min="0">
+        </p>
+           <p>sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="masc">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="verificar" onclick="ver()">
+        </p>
+    </div>
+    <div id="res">
+        Para ter acesso preencha seus dados com cuidado!
+    </div>
 </section>
     <footer><p>&copy; Dora-dora</p></footer>
     <script src="exer002.js"></script>
